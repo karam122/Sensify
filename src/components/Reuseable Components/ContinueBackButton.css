@@ -1,0 +1,33 @@
+.Btn_Parent {
+  position: fixed;
+  left: 20%;
+  bottom: 80px;
+  transform: translate(-50%, -50%);
+  margin: 0px auto;
+  display: flex !important;
+}
+.Btn_Parent:hover {
+  border-color: white;
+}
+.Go_Back {
+  text-align: center;
+  left: 40px;
+  position: relative;
+  top: 0px;
+  background-color: white;
+}
+.Go_Back_Span {
+   position: absolute;
+   top: 18px;
+   padding: 10px 10px 10px 10px;
+}
+.Continue_Next {
+  background-color: #22669c;
+  padding-top: 0px;
+  border: none;
+  padding: 19px 0px;
+  color: white;
+  width: 260px;
+  position: absolute;
+  /* left:60px */
+}
